@@ -11,11 +11,11 @@ def a():
     rounds = int(input("сколько раз вы хотите играть?:"))
     for i in range(rounds):
         name, date = random.choice(list(a.items()))
-        answer = input(f"кoгда родился {name}")
+        answer = input(f"кoгда родился этот человек {name}")
         if answer == date:
-            print('верно')
+            print('ты ответил верно')
         else:
-            print('неверно')
+            print('ты ответил неверно')
     print('пока')
 
 print('привет')
@@ -30,4 +30,4 @@ elif b == "нет":
     print(("ну давай готовисьтя тогда"))
 
 else:
-print()
+    print()
